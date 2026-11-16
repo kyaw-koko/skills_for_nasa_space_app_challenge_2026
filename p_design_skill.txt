@@ -1,0 +1,69 @@
+---
+name: planet-x-spherex-presentation-design
+description: Comprehensive presentation slide design and pitch-deck engineering skill tailored for the NASA Space Apps Challenge 2026 "Planet X and SPHEREx" project (SPHEREx SkyShift). Use when generating HTML/CSS slide decks, React/Reveal.js presentations, pitch scripts, or Canva layout blueprints for astrophysics, near-infrared sky surveys, and outer solar system discovery tools.
+---
+
+# Planet X & SPHEREx Presentation Slide Design Skill (`p_design_skill.md`)
+
+## 1. Mission & Domain Context
+- **Challenge:** NASA Space Apps Challenge 2026 — *Planet X and SPHEREx*
+- **Project Identity:** **SPHEREx SkyShift** (Interactive Web-Based Astronomical Discovery & Near-Infrared Sky-Survey Visualization Tool)
+- **Core Scientific Pillars:**
+  1. **The Planet X Hypothesis:** Gravitational perturbations and orbital clustering (argument of perihelion $\omega$, longitude of ascending node $\Omega$) among extreme Trans-Neptunian Objects (eTNOs) beyond Neptune ($a > 250\text{ AU}$), pointing to a distant Super-Earth / Ice Giant ($5–10\,M_\oplus$).
+  2. **NASA SPHEREx Observatory:** Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer — an all-sky near-infrared spectral survey ($0.75–5.0\,\mu\text{m}$) capturing **102 spectral bands** via Linear Variable Filters (LVFs) across four all-sky maps over a 2-year nominal mission.
+  3. **The Detection Breakthrough:** Moving objects at extreme heliocentric distances exhibit minuscule proper motion ($\sim\text{arcseconds/year}$) and extremely faint optical magnitudes ($V > 22$), but emit thermal/reflected near-infrared signatures detectable via multi-epoch SPHEREx all-sky image differencing, shift-and-stack algorithms, and spectral SED (Spectral Energy Distribution) filtering.
+
+---
+
+## 2. Visual Aesthetic & Design System (Synthesized from NASA Science & Modern Pitch Templates)
+
+### A. Color Palette (Deep-Space Telemetry & Infrared Contrast)
+- **Primary Canvas (Deep Space Void):** `#060913` / `#0B0F19` (High-contrast dark background for astronomical imagery and projection clarity)
+- **Elevated Surface / Glass Cards:** `rgba(17, 25, 40, 0.78)` with `1px solid rgba(56, 189, 248, 0.22)` border and `backdrop-filter: blur(12px)`
+- **Primary Accent (SPHEREx Infrared Cyan):** `#38BDF8` (Orbital tracks, telemetry lines, active HUD indicators)
+- **Secondary Accent (Near-IR Thermal Amber / Gold):** `#F59E0B` (Planet X candidate vectors, thermal emission peaks, key metric callouts)
+- **Tertiary Accent (Spectral Violet / Hydrogen-Ice):** `#A855F7` (102-band spectroscopy highlights, Kuiper Belt ice signatures)
+- **Typography Colors:**
+  - Primary Headings: `#F8FAFC` (Crisp Starlight White)
+  - Body Copy: `#CBD5E1` (Soft Slate Grey — prevents halation on dark projectors)
+  - Muted Captions / Metadata: `#64748B`
+
+### B. Typography & Hierarchy Rules
+- **Display / Slide Titles:** Geometric Sans-Serif (`Space Grotesk`, `Inter`, or `Montserrat`), Bold (`700`), tight tracking (`-0.02em`), `36pt–44pt` equivalent on 16:9 canvas.
+- **Body & Bullet Copy:** Clean Humanist Sans-Serif (`Inter` or `Plus Jakarta Sans`), Regular/Medium (`400/500`), `18pt–22pt` minimum for projector legibility.
+- **Telemetry, Coordinates & Equations:** Monospace (`JetBrains Mono` or `Fira Code`) for RA/Dec coordinates, wavelength bands ($0.75\,\mu\text{m} - 5.0\,\mu\text{m}$), and orbital parameters.
+- **Slide Density Rule (The 3x30 Guideline):** Maximum **30–45 words** per content slide; never place walls of text. Every slide must feature **one dominant visual anchor** (orbital diagram, spectral chart, UI mockup, or pipeline flowchart).
+
+### C. Layout Archetypes (Inspired by Editorial Pitch & Scientific Deck Templates)
+1. **Hero Title Slide (Full-Bleed Cosmic Canvas):** Edge-to-edge dark planetary/observatory visual on right/background, left-aligned bold title block, mission badge pill (`NASA SPACE APPS 2026 // PLANET X & SPHEREx`), team & project tagline.
+2. **Split-Screen Problem/Hook (60/40 Visual-to-Text):** Left 60% shows Kuiper Belt orbital clustering vs. uniform distribution; Right 40% holds 3 crisp problem statements with bold numerical callouts.
+3. **Bento Grid Architecture / Data Pipeline:** 3- or 4-card modular grid displaying `IRSA / SPHEREx Archive` $\rightarrow$ `Astropy WCS Alignment` $\rightarrow$ `Shift-and-Stack Motion Filter` $\rightarrow$ `Interactive SkyShift HUD`.
+4. **Data & Spectral Comparison Slide:** Clean dark-mode chart comparing Optical Telescopes (narrow FOV, faint $V$-band) vs. SPHEREx (all-sky coverage, 102 IR bands, thermal sensitivity).
+5. **Live Demo / Product Showcase Frame:** Browser/HUD frame (`16:9` viewport) showcasing **SPHEREx SkyShift** with floating glassmorphism callout pins pointing to: (a) Time-Epoch Scrubber, (b) 102-Band SED Inspector, (c) Candidate Trajectory Overlay.
+6. **Impact & Roadmap Timeline:** Horizontal 3-phase milestone track (`Hackathon MVP` $\rightarrow$ `Citizen Science Mode` $\rightarrow$ `Real-Time SPHEREx Data Release Integration`).
+
+---
+
+## 3. Recommended 10-Slide Hackathon Pitch Deck Structure (4–5 Minute Pitch)
+
+| Slide # | Section | Layout Archetype | Core Content & Visual Focus | Time Target |
+| :--- | :--- | :--- | :--- | :--- |
+| **01** | **Title & Hook** | Full-Bleed Hero | **SPHEREx SkyShift**: Hunting Planet X Across 102 Infrared Bands. Visual: Ice giant in deep space + SPHEREx orbit badge. | 0:00 – 0:20 |
+| **02** | **The Mystery (Problem)** | Split-Screen 60/40 | Why haven't we found Planet X? Extreme distance ($400–800\text{ AU}$), ultra-slow motion, and optical faintness ($V > 22$). Visual: eTNO clustered orbits diagram. | 0:20 – 0:50 |
+| **03** | **The Opportunity (SPHEREx)** | Big Number + Bento | NASA's SPHEREx maps the entire sky every 6 months in **102 near-IR bands** ($0.75–5.0\,\mu\text{m}$). Visual: SPHEREx photon shield & all-sky map. | 0:50 – 1:20 |
+| **04** | **Our Solution** | Product Hero Frame | Introducing **SPHEREx SkyShift**: An interactive web discovery engine combining multi-epoch sky blinking with spectral filtering. | 1:20 – 1:50 |
+| **05** | **How It Works (Pipeline)** | 4-Step Flow Diagram | Data ingestion from Caltech IPAC/IRSA $\rightarrow$ WCS coordinate registration $\rightarrow$ Temporal blink/shift engine $\rightarrow$ Candidate scoring. | 1:50 – 2:25 |
+| **06** | **Spectral Filtering Science** | Chart + Callout Box | Separating distant icy bodies from background stars & asteroids using $\text{H}_2\text{O}$ / $\text{CH}_4$ near-IR absorption features. | 2:25 – 2:55 |
+| **07** | **Live UI / Demo Walkthrough** | Annotated HUD Mockup | Walkthrough of SkyShift's stereographic sky canvas, epoch slider, and Aladin/Astropy coordinate lookup. | 2:55 – 3:35 |
+| **08** | **Validation & Simulation** | Before / After Split | Synthetic Planet X injection test: recovering a simulated moving IR source across 4 simulated SPHEREx epochs. | 3:35 – 4:00 |
+| **09** | **Impact & Citizen Science** | 3-Column Bento | Democratizing NASA IRSA open data for students, amateur astronomers, and researchers worldwide. | 4:00 – 4:25 |
+| **10** | **Future Roadmap & Close** | Timeline + CTA | Scaling to live SPHEREx mission releases, automated ML anomaly detection, and team credits. | 4:25 – 4:45 |
+
+---
+
+## 4. AI Agent Execution Rules (When Generating Slides or Code)
+1. **Strict 16:9 Aspect Ratio:** Design every slide for `1920x1080px` (`16:9`) without vertical scrolling or overflowing text boxes.
+2. **Data-First Visuals:** Never use generic clip-art or decorative filler shapes. Every graphic must encode orbital mechanics, infrared wavelengths, telescope FOV geometry, or actual UI telemetry.
+3. **Bilingual & Technical Precision:** Keep astronomical terms (`Right Ascension`, `Declination`, `Perihelion`, `Linear Variable Filter`, `102 Spectral Bands`, `IRSA`) accurate; when presenting in Burmese, pair clean Myanmar explanations with standard international astrophysics notation.
+4. **High-Contrast Projector Safety:** Ensure text contrast ratio $\ge 7:1$ against dark space backgrounds; avoid thin light-grey fonts on dark blue gradients.
+5. **Canva / HTML Translation Ready:** Structure every slide output with explicit **Layout Grid**, **Headline**, **Max 3 Bullet Points**, **Visual Asset Prompt/Chart Spec**, and **Speaker Notes** so it can be built immediately in HTML/Reveal.js or Canva.

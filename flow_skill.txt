@@ -1,0 +1,64 @@
+pitch-deck-architect
+Structure and write persuasive pitch decks and PowerPoint presentations using a narrative problem-to-impact storytelling flow. Use whenever the user asks to create, outline, structure, write slides for, or build a PowerPoint presentation, pitch deck, hackathon deck, or product presentation.
+
+Instructions
+Pitch Deck Architect
+Structure and write persuasive, visually driven presentations by turning a concept or project into a cohesive 9-act narrative arc with concise slide copy and clear visual cues.
+
+When to Use
+The user asks to build, outline, or write content for a PowerPoint presentation, slide deck, or pitch deck.
+The user wants to present a startup idea, hackathon project, app prototype, or social-impact solution.
+The user provides raw notes, a project summary, or a concept and needs it structured into slides.
+Narrative Flow & Slide Structure
+Follow this 9-act narrative progression, pacing complex ideas across short, focused slides (one core message per slide):
+
+Hook & Title (1 slide)
+Brand/project name, visual emblem concept, and a crisp one-line value tagline.
+Emotional Context & Stakes (3-4 slides)
+Open with a relatable, universal observation ("Look up at the sky...").
+Highlight the shared, borderless nature of the issue, then contrast it with the harsh current reality and human cost.
+Problem & Research (3-4 slides)
+Introduce a clear section divider ("The Problem & Research").
+Break down the crisis into 2-3 distinct, numbered root causes, pairing each with a simple visual comparison or definition.
+The Insight & Status Quo Gap (5-6 slides)
+Introduce a section divider ("The Insight").
+Present a high-level trend or annual data pattern showing the problem persists despite existing efforts.
+Ask a rhetorical transition question ("Why is there no improvement?").
+Expose the core behavioral or structural bottleneck (e.g., top-down policies fail without grassroots participation and incentives) and show why existing tools fall short.
+The Solution & Ecosystem (2 slides)
+Introduce a section divider ("How We Solve").
+Position the product not just as a tool, but as an ecosystem that empowers everyday users.
+Product Walkthrough / User Journey (3-4 slides)
+Show the user flow step-by-step using UI mockups, screenshots, or real-world usage photos:
+Check current status / baseline data.
+Take a core action (e.g., register, select, configure).
+Track measurable personal impact.
+Summarize the end-to-end loop in one takeaway sentence.
+Value Proposition & Incentives (3 slides)
+Introduce a section divider ("Value Proposition").
+Explain the reward mechanism (what users earn for taking action) and tangible real-world benefits (discounts, perks, or economic returns).
+Future Impact & Scale (4 slides)
+Introduce a section divider ("Future Impact").
+Contrast individual micro-action ("Start from a room corner") with collective macro-transformation ("One million citizens united...").
+Close the narrative with a visionary statement on long-term global or regional impact.
+Closing & Team Sign-Off (1 slide)
+Reiterate the brand name, a concise summary tagline, team/creator attribution, and a clean product preview collage.
+Slide Writing & Design Rules
+One idea per slide: Keep slides scannable and fast-paced. Split multi-part explanations across consecutive slides rather than crowding one slide.
+Brevity over bullet walls: Limit slide body text to 1-2 punchy sentences (under 25 words per slide) so slides reinforce spoken delivery rather than replace it.
+Visual-first pairing: For every slide, specify a concrete visual element (section header card, comparison diagram, UI screen mockup, data chart, or real-world photo).
+Consistent color & typography: Anchor the deck in a cohesive 2-3 color palette tied to the domain (e.g., deep forest green, sage, and clean white for sustainability) with bold, high-contrast headlines.
+Output Format
+When generating a presentation plan or slide deck content, output a numbered slide-by-slide blueprint containing:
+
+Slide Number & Act
+Headline (short, bold title or section divider)
+On-Slide Copy (1-2 concise sentences)
+Visual Direction (exact chart, mockup, icon, or layout suggestion)
+Speaker Note (brief talking point to bridge to the next slide)
+If the user explicitly requests a downloadable .pptx file, generate it programmatically with python-pptx using clean layouts, matching colors, and structured placeholders.
+
+Gotchas
+Overloading slides: Avoid dumping all root causes, features, and benefits onto 5 dense slides. Use section divider slides and single-point slides to maintain momentum.
+Skipping the "Why Now / Status Quo Gap" bridge: Never jump straight from the problem to your app. Always include the insight explaining why current policies or apps fail to motivate users.
+Feature lists instead of user journeys: Frame product slides around the step-by-step user experience ("Check -> Act -> Measure") rather than abstract technical specs.
